@@ -1,0 +1,84 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good morning", "greetings", "what's up"],
+            "responses": ["Hello, how can I assist you?", "Hello, how can I help you?", "Hello, what are your symptoms?"]
+        },
+        {
+            "tag": "common cold",
+            "patterns": ["sore throat", "coughing", "slight fever", "runny nose", "sneezing"],
+            "responses": ["Based on the symptoms you have povided, you have the common cold. It is a fairly weak illness and you should recover from it in a few days. Make sure you drink plenty of fluids."]
+        },
+        {
+            "tag": "flu",
+            "patterns": ["fever", "cough", "sore throat", "runny nose", "muscle or body aches", "fatigue", "headache", "chills"],
+            "responses": ["You seem to have been afflicted with the flu. Drink plenty of fluids and make sure you keep your body temperature in check. If the symptoms worsen, seek help from a medical professional."]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": ["Cough", "fever", "shortness of breath", "chest pain", "fatigue", "sweating and chills", "muscle aches", "nausea, vomiting or diarrhea"],
+            "responses": ["You seem to have caught pneumonia. Make sure to drink plenty of fluids and seek medical help as soon as you can."]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": ["frequent urination", "excessive thirst", "extreme hunger", "weight loss", "fatigue", "slow to heal", "blurred vision", "numbness in hands", "numbness in feet", "changes in mood", "irritability"],
+            "responses": ["Your symptoms are telling symptoms of diabetes. If you feel like these symptoms are very common to you, please seek help from a medical professional."]
+        },
+        {
+            "tag": "hypertention",
+            "patterns": ["headache", "dizziness", "lightheadedness", "nosebleeding", "blurred vision", "double vision", "chest pain", "shortness of breath", "irregular heartbeat", "weakness", "fatigue", "facial flushing", "fluid retention", "swelling"],
+            "responses": ["Your symptoms are telling of hypertention. Please seek help from a medical professional."]
+        },
+        {
+            "tag": "covid-19",
+            "patterns": ["fever", "cough", "shortness of breath", "difficulty breathing", "fatigue", "muscle aches", "body aches", "headache", "sore throat", "loss of taste", "loss of smell", "congestion", "runny nose", "abdominal pain", "belly pain", "nausea", "vomiting", "diarrhea"],
+            "responses": ["You have symptoms telling of SARS-CoV-2, also known as Covid-19. Symptom strength can vary, but you should still self-isolate as to not spread the disease. If you feel very ill, please seek help from a medical professional."]
+        },
+        {
+            "tag": "als",
+            "patterns": ["muscle weakness", "muscle twitching", "muscle cramps", "muscle stiffness", "difficulty with fine motor skills", "slurred speech", "difficulty swallowing", "muscle atrophy", "difficulty walking", "difficulty breathing", "difficulty in daily activities"],
+            "responses": ["Your symptoms are telling of Amyotrophic Lateral Sclerosis (ALS). Since ALS symptoms are quite hard to define, I might be mistakes; however, please still seek help from a medical professional."]
+        },
+        {
+            "tag": "chicken pox",
+            "patterns": ["rash", "itching", "fever", "fatigue", "headache", "loss of appetite", "sore throat", "muscle pain", "joint pain", "blisters"],
+            "responses": ["You seem to have caught chicken pox, also know as varicella. This illness can be quite irritating; however, it should pass after 2 weeks of the symptoms showing. Make sure to drink plenty of fluids. If you feel the symptoms are drastically worsening, please seek help form a medical professional."]
+        },
+        {
+            "tag": "tonsillitis",
+            "patterns": ["sore throat", "difficulty swallowing", "swollen tonsils", "swollen lymph nodes", "bad breath","halitosis", "fever", "ear pain", "headache", "voice changes", "fatigue"],
+            "responses": ["It seems you may have tonsillitis, an inflammation of the tonsils. Tonsillitis can take some time to heal without medical interference. Please seek help from a medical professional."]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": ["joint pain", "swelling", "stiffness", "redness", "decreased range of motion", "harder to move", "fatigue", "weakness", "joint deformity", "fever", "difficulty with daily activities"],
+            "responses": ["Based on your symptoms, you may have arthritis. Please seek help from a medical professional."]
+        },
+        {
+            "tag": "indigestion",
+            "patterns": ["abdominal pain", "abdominal discomfot", "feeling full", "bloated", "burning sensation in the chest", "burning chest", "heartburn", "nausea", "regurgitation", "excessive belching", "uncomfortable after eating", "acidic taste in mouth", "bitter taste in mouth", "difficulty swallowing"],
+            "responses": ["You seem to be suffering from an indigestion. If you don't feel better after drinking some water or if your condition worsens please seek medical help."]
+        },
+        {
+            "tag": "gastroentritis",
+            "patterns": ["diarrhea", "nausea", "vomiting", "abdominal pain", "abdominal cramps", "fever", "loss of appetite", "dehydration", "weakness", "fatigue", "muscle aches", "headache"],
+            "responses": ["You seem to be suffering from a gastroentritis. Most cases resolve with a few days of rest and enough hydration. However, if symptoms are severe and persistent it is important to seek medical attention as soon as possible."]
+        },
+        {
+            "tag": "sinusitis",
+            "patterns": ["facial pain", "nasal congestion", "stuffy nose", "nasal discharge", "loss of smell", "cough", "facial tenderness", "headache", "fatigue", "fever", "sore throat"],
+            "responses": ["You seem to have sinusitis. If the symptoms don't disappear after a few days please consult a healthcare professional."]
+        },
+        {
+            "tag": "conjunctivitis",
+            "patterns": ["redness", "eye itching", "itchy eye",  "eye irritation", "grittiness", "eye discharge", "sensitivity to light", "swollend eyelids", "blurred vision", "crusting of the eyelids", "eye pain", "eye discomfort"],
+            "responses": ["Based on your symptoms, you have conjunctivitis. If the symptoms increase in severity please seek a healthcare professional."]
+        },
+        {
+            "tag": "hay fever",
+            "patterns": ["sneezing", "runny nose", "stuffy nose", "itchy eye", "nose drip", "post-nasal drip", "sore throat", "cough", "fatigue", "headache", "insomia", "difficulty sleeping", "ear pressure", "ear popping"],
+            "responses": ["You seem to have hay fever. Symptoms of hay fever usually pass quite easily; however, if allergic reactions worsen in severity, please seek a healthcare professional."]
+        }
+    ]
+}
