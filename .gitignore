@@ -1,0 +1,5 @@
+# Don't push the following:
+.venv
+.env
+.idea
+*.properties
